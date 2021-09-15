@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab04</string>
+    <string name="hello_tjhsst">Hello TJHSST!</string>
+    <string name="hello">Hello</string>
+    <string name="hello_dad">Hello Dad</string>
+    <string name="hello_mom">Hello Mom</string>
+    <string name="hello_brother">Hello Brother</string>
+    <string name="hello_everybody">Hello Everybody</string>
+</resources>

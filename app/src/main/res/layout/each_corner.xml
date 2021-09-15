@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:gravity="center"
+        android:id="@+id/hellodad"
+        android:background="#ab75d1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/hello_dad"
+        android:textSize="@dimen/fontsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:gravity="center"
+        android:id="@+id/hellomom"
+        android:background="#84c8db"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/hello_mom"
+        android:textSize="@dimen/fontsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:gravity="center"
+        android:id="@+id/hellobrother"
+        android:background="#f0d67a"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/hello_brother"
+        android:textSize="@dimen/fontsize"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:gravity="center"
+        android:id="@+id/hellofriend"
+        android:background="#a0d98b"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/hello_everybody"
+        android:textSize="@dimen/fontsize"
+        android:textColor="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
