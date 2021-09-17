@@ -2,4 +2,5 @@
 <resources>
     <dimen name="fontsize">30sp</dimen>
     <dimen name="length">150dp</dimen>
+    <dimen name="buttonwidth">320dp</dimen>
 </resources>

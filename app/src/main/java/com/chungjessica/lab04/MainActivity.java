@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.each_corner);
+        setContentView(R.layout.backgroundcolor);
     }
 
     public void changeLayout(View view) {

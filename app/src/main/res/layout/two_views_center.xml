@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:gravity="center"
+        android:id="@+id/hellodad"
+        android:background="#ab75d1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/hello_dad"
+        android:textSize="@dimen/fontsize"
+        android:textColor="@color/white"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5"/>
+
+    <TextView
+        android:id="@+id/hellobrother"
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:background="#f0d67a"
+        android:gravity="center"
+        android:text="@string/hello_brother"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize"
+        app:layout_constraintBottom_toTopOf="@id/guideline_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/guideline_vertical" />
+
+    <TextView
+        android:id="@+id/hellomom"
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:layout_marginBottom="16dp"
+        android:background="#84c8db"
+        android:gravity="center"
+        android:text="@string/hello_mom"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize"
+        app:layout_constraintTop_toBottomOf="@id/hellobrother"
+        app:layout_constraintLeft_toRightOf="@id/hellobrother" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

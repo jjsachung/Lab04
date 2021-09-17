@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#72bad6">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_vertical"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hello_textview"
+        android:background="#ab75d1"
+        android:text="@string/hello"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/guideline_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/buttonwidth"
+        android:layout_height="52dp"
+        android:backgroundTint="#8fcf72"
+        android:text="@string/this_is_a_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/guideline_vertical"
+        app:layout_constraintTop_toBottomOf="@id/hello_textview" />
+
+    <TextView
+        android:layout_width="@dimen/length"
+        android:layout_height="@dimen/length"
+        android:id="@+id/view1"
+        android:text="@string/this_is_a_view"
+        android:background="#f0d67a"
+        android:textSize="@dimen/fontsize"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@id/guideline_vertical"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_horizontal"/>
+
+<TextView
+    android:layout_width="@dimen/length"
+    android:layout_height="@dimen/length"
+    android:text="@string/another_view"
+    android:id="@+id/view2"
+    android:background="#f59abd"
+    android:gravity="center"
+    android:textSize="@dimen/fontsize"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toRightOf="@id/guideline_vertical"
+    app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

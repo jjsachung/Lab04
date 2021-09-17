@@ -6,4 +6,8 @@
     <string name="hello_mom">Hello Mom</string>
     <string name="hello_brother">Hello Brother</string>
     <string name="hello_everybody">Hello Everybody</string>
+    <string name="this_is_a_button">This is a button</string>
+    <string name="view1">view1</string>
+    <string name="this_is_a_view">This is a view</string>
+    <string name="another_view">Another view</string>
 </resources>
