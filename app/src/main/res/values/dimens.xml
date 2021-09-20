@@ -3,4 +3,6 @@
     <dimen name="fontsize">30sp</dimen>
     <dimen name="length">150dp</dimen>
     <dimen name="buttonwidth">320dp</dimen>
+    <dimen name="smalllength">80dp</dimen>
+    <dimen name="biglength">200dp</dimen>
 </resources>
