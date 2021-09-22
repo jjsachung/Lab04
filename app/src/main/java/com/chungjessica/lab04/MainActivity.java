@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.scrollview_with_textview);
+        setContentView(R.layout.constraint_layout);
     }
 
     public void changeLayout(View view) {

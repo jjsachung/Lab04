@@ -11,4 +11,5 @@
     <string name="this_is_a_view">This is a view</string>
     <string name="another_view">Another view</string>
     <string name="this_is_long_text">this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \n this is long text \nthis is long text \n</string>
+    <string name="this_is_a_checkbox">This is a checkbox</string>
 </resources>
