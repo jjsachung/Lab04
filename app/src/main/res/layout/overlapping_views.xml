@@ -9,6 +9,8 @@
         android:layout_width="@dimen/length"
         android:layout_height="@dimen/length"
         android:id="@+id/hello_textview"
+        android:text="@string/move_to_next_layout"
+        android:onClick="nextPage"
         android:gravity="center"
         android:background="#ab75d1"
         android:textColor="@color/white"

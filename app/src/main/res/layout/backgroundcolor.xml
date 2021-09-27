@@ -37,10 +37,12 @@
         android:layout_width="@dimen/buttonwidth"
         android:layout_height="52dp"
         android:backgroundTint="#8fcf72"
-        android:text="@string/this_is_a_button"
+        android:text="@string/move_to_next_layout"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@id/guideline_vertical"
-        app:layout_constraintTop_toBottomOf="@id/hello_textview" />
+        app:layout_constraintTop_toBottomOf="@id/hello_textview"
+        android:onClick="nextPage"
+        />
 
     <TextView
         android:layout_width="@dimen/length"

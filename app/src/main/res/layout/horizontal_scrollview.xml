@@ -26,6 +26,9 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/move_to_next_layout"
+                android:textColor="@color/white"
+                android:onClick="nextPage"
                 android:backgroundTint="#f0d67a"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="wrap_content"
